@@ -7,6 +7,7 @@
     <title>Fun fact Generator </title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>AI Fun Fact Generator</h1>
     </header>
@@ -16,16 +17,18 @@
             placeholder="Enter the ptopic of the Fact" 
             autofocus 
             required
-            autocomplete="off">
-            <input type="submit" >
+            autocomplete="off"
+            class="instructions">
+            <input type="submit" class="submit-button">
         </form>
-        <div>
+        <div class="fun-fact">
             Fact will be header
             <br>
             second paragraph
         </div>
     </main>
     <footer>This AI project is coded by <a href="https://github.com/nataliarodmo" target="_blank"> Natalia R</a> and it is <a href="https://github.com/nataliarodmo/fun-facts-generator.git" target="_blank">open-sourced on Github </a> and it is hosted on <a href="https://ai-fun-fact-generator-natalia-r.netlify.app/" target="_blank"> Netlify </a></footer>
+   </div>
     <script src="src/index.js"></script>
 </body>
 </html>
