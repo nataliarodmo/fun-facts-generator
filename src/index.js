@@ -1,5 +1,4 @@
 function displayFact(response){
-    console.log(response.data.answer);
     new Typewriter ("#fun-fact", {
         strings: response.data.answer,
         autoStart: true,
